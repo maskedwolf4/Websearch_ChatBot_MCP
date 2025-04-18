@@ -1,0 +1,13 @@
+[project]
+name = "chat-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "groq>=0.22.0",
+    "langchain-groq>=0.3.2",
+    "mcp-use>=1.2.5",
+    "streamlit>=1.44.1",
+]
